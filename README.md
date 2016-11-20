@@ -1,8 +1,6 @@
-﻿------------------------------------
- micro python setup, to esp8266( ESP-WROOM-02 )
- @Author  : Kouji Nakashima / kuc-arc-f.com
- @date    : 2016/11/20
-------------------------------------
+﻿ micro python setup, to esp8266( ESP-WROOM-02 )
+ Author  : Kouji Nakashima / kuc-arc-f.com
+ date    : 2016/11/20
 
 # setup (micro python ,firmware write)
 
