@@ -8,6 +8,8 @@
 ## setup (micro python ,firmware write)
 (PC=raspberry Pi2 /raspbian-wheezy)
 
+bin= esp8266-20160809-v1.8.3.bin
+
     sudo pip install esptool
 
 erase_flash (if port= /dev/ttyUSB0 )
@@ -36,6 +38,7 @@ setup:
     $ sudo python setup.py install
 
 [Test]
+
     $ mpfshell
 
     mpfs [/]> open ttyUSB0
@@ -47,10 +50,12 @@ main.py copy:
     mpfs [/]> put main.py
 
 REPL:
+
     mpfs [/]> repl
 
 
 *1) CTR+D = reboot, microPython.
+
 *2) exit, Ctrl+]
 
 ## Sample ,LED Blink
