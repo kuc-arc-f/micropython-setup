@@ -8,6 +8,9 @@
 ## setup (micro python ,firmware write)
 (PC=raspberry Pi2 /raspbian-wheezy)
 
+download: http://micropython.org/download#esp8266
+
+
 bin= esp8266-20160809-v1.8.3.bin
 
     sudo pip install esptool
