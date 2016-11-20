@@ -20,7 +20,42 @@ write_flash
 
 
 ## file transfer shell ( tool )
+mpfshell: https://github.com/wendlers/mpfshell
+pip install:
 
+
+    $ sudo pip install pyserial
+
+    $ sudo pip install colorama
+
+    $ sudo pip install websocket_client
+
+
+setup:
+
+    $ sudo python setup.py install
+
+[Test]
+    $ mpfshell
+
+    mpfs [/]> open ttyUSB0
+
+    mpfs [/]> ls
+
+main.py copy:
+
+    mpfs [/]> put main.py
+
+REPL:
+    mpfs [/]> repl
+
+
+*1) CTR+D = reboot, microPython.
+*2) exit, Ctrl+]
+
+## Sample ,LED Blink
+
+sample/main.py
 
 ## youtube (sample LED) 
 https://youtu.be/1tXvscYFnC0
@@ -35,4 +70,7 @@ http://micropython.org
 
 MicroPython Wiki:
 http://wiki.micropython.org/Home
+
+mpfshell:
+http://qiita.com/taka-murakami/items/25bec288d4aa1bc6f63f
 
