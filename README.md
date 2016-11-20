@@ -6,6 +6,13 @@
 
 
 # setup (micro python ,firmware write)
+(PC=raspberry Pi2 /raspbian-wheezy)
+
+    sudo pip install esptool
+
+erase_flash (if port= /dev/ttyUSB0 )
+
+    esptool.py --port  /dev/ttyUSB0 erase_flash
 
 
 # file transfer shell ( tool )
