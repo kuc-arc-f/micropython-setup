@@ -14,11 +14,15 @@ erase_flash (if port= /dev/ttyUSB0 )
 
     esptool.py --port  /dev/ttyUSB0 erase_flash
 
+write_flash
+
+    esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=8m 0 esp8266-20160809-v1.8.3.bin
+
 
 # file transfer shell ( tool )
 
 
-# youtube (sample)
+# youtube (sample LED) 
 https://youtu.be/1tXvscYFnC0
 
 # reference
