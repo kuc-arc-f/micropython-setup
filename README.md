@@ -69,7 +69,7 @@ sample/main.py
 ## youtube (sample LED) 
 https://youtu.be/1tXvscYFnC0
 
-## reference
+### related:
 MicroPython Basics: How to Load MicroPython on a Board:
 
 https://learn.adafruit.com/micropython-basics-how-to-load-micropython-on-a-board/esp8266
@@ -83,3 +83,10 @@ http://wiki.micropython.org/Home
 mpfshell:
 http://qiita.com/taka-murakami/items/25bec288d4aa1bc6f63f
 
+***
+## related (GitHub)
+* MicroPython Tutorial #1, dht11 Sensor etc
+
+https://gist.github.com/kuc-arc-f/bcf773bd7fd6f5d6f23cf5cda3a89afe
+
+***
