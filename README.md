@@ -89,4 +89,8 @@ http://qiita.com/taka-murakami/items/25bec288d4aa1bc6f63f
 
 https://gist.github.com/kuc-arc-f/bcf773bd7fd6f5d6f23cf5cda3a89afe
 
+* MicroPython Tutorial #2, OLED( SSD1306 )  
+
+https://gist.github.com/kuc-arc-f/a3f4f7c3ad501d2040ac6f1e5660a2fe
+
 ***
